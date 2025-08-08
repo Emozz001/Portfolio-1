@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#AFDF19">
+    <title>Emozz — Contact</title>
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40ODcgMiAyIDYuNDg3IDIgMTJzNC40ODcgMTAgMTAgMTAgMTAtNC40ODcgMTAtMTBTMTcuNTEzIDIgMTIgMnptMCAyYzQuNDMgMCA4IDMuNTcgOCA4YTcuOTk0IDcuOTk0IDAgMCAxLS42NjQgMy4xMjVjLS4zOTkuODI1LTEuMDI4IDEuMzI0LTEuODM2IDEuMzI0aC0xLjVjLS43NzggMC0xLjQ5Mi0uNDQ0LTEuODQ0LTEuMTQ1QzEzLjY2IDE1LjQ0MyAxMi44OTkgMTUgMTIgMTVjLS44OTkgMC0xLjY2LjQ0My0yLjE1NiAxLjE1NUM5LjQ5MiAxNy41NTYgOC43NzggMTggOCAxOGgtMS41Yy0uNTA4IDAtMS40MzctLjUtMS44MzYtMS4zMjRBOCA4IDAgMCAxIDQgMTJjMC00LjQzIDMuNTctOCA4LTh6Ii8+PC9zdmc+" type="image/svg+xml" sizes="32x32">
+    <meta name="description" content="Contact Emozz">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta property="og:title" content="Emozz — Contact">
+    <meta property="og:description" content="Contact Emozz">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en">
+    <meta property="og:site_name" content="Emozz">
+    <link rel="stylesheet" href="/pages/style.css">
+</head>
+<body>
+    <div id="root">
+        <!-- Enhanced Premium Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="/pages/Home/index.html">
+                        <img src="/src/image/logo 1.png" class="logo" alt="Emozz Portfolio">
+                    </a>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="header__nav" role="navigation">
+                    <div class="nav-indicator"></div>
+                    <a href="/pages/Home/index.html" class="nav-link" data-section="home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/pages/Projects/index.html" class="nav-link" data-section="projects">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="/pages/About-me/index.html" class="nav-link" data-section="skills">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="/pages/contact-me/index.html" class="nav-link active" data-section="contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contact-page">
+            <!-- Background animation elements -->
+            <div class="animation-bg">
+                <div class="bg-element"></div>
+                <div class="bg-element"></div>
+                <div class="bg-element"></div>
+                <div class="bg-element"></div>
+            </div>
+
+            <div class="container">
+                <div class="contact-container">
+                    <h1 class="contact-title">Let's Work Together</h1>
+                    <p class="intro-text">
+                        I'm passionate about creating innovative digital solutions and I'm always interested in freelance opportunities. 
+                        Whether you have a project in mind, need technical consultation, or just want to say hello, 
+                        I'd love to hear from you!
+                    </p>
+
+                    <div class="media-section">
+                        <h3 class="media-title">All Media</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/Emozz001" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://t.me/Emozz2003" class="social-icon">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h2 class="contact-heading">Send Message</h2>
+                            </div>
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </div>
+                                <h2 class="contact-heading">Contact Info</h2>
+                            </div>
+                            <div class="contact-info">
+                                <strong>Email:</strong> ipawara2003.new@gmail.com
+                            </div>
+                            <div class="contact-info">
+                                <strong>Response Time:</strong> Usually within 24 hours
+                            </div>
+                            <div class="contact-info">
+                                <strong>Availability:</strong> <span id="availability-status">Available for projects</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">
+                                    <i class="fas fa-donate"></i>
+                                </div>
+                                <h2 class="contact-heading">Support My Work</h2>
+                            </div>
+                            <div class="usdt-trc20">
+                                <div class="usdt-logo">
+                                    <div class="t-symbol">
+                                        <div class="t-line"></div>
+                                        <div class="t-line"></div>
+                                        <div class="t-bar"></div>
+                                        <div class="t-stem"></div>
+                                    </div>
+                                </div>
+                                <div class="wallet-address">4149500120690030</div>
+                                <div class="trc-label">USDT TRC20</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-info">
+                        <img src="/src/image/logo 1.png" class="logo" alt="Emozz Logo" style="width: 40px; cursor: pointer;" id="adminLogo">
+                        <p>Web designer and front-end developer</p>
+                    </div>
+
+                    <div class="copyright">
+                        <p>&copy; Copyright 2025. Made with <i class="fas fa-heart" style="color: #AFDF19;"></i> by Emozz</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Highlight active section in navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set contact nav link as active
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                if (link.textContent === 'Contact Me') {
+                    link.classList.add('active');
+                }
+            });
+
+            // Floating background animation
+            const bgElements = document.querySelectorAll('.bg-element');
+            bgElements.forEach(el => {
+                // Randomize animation duration
+                const duration = 15 + Math.random() * 10;
+                el.style.animationDuration = `${duration}s`;
+            });
+
+            // Add subtle animation to contact cards on page load
+            const contactCards = document.querySelectorAll('.contact-card');
+            contactCards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 300 * index);
+            });
+
+            // Mobile menu toggle with overlay
+            const mobileToggle = document.getElementById('mobileToggle');
+            const headerNav = document.querySelector('.header__nav');
+            
+            // Create mobile overlay
+            const mobileOverlay = document.createElement('div');
+            mobileOverlay.className = 'mobile-overlay';
+            document.body.appendChild(mobileOverlay);
+
+            function closeMobileMenu() {
+                headerNav.classList.remove('active');
+                mobileOverlay.classList.remove('active');
+                mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                document.body.style.overflow = '';
+            }
+
+            function openMobileMenu() {
+                headerNav.classList.add('active');
+                mobileOverlay.classList.add('active');
+                mobileToggle.innerHTML = '<i class="fas fa-times"></i>';
+                document.body.style.overflow = 'hidden';
+            }
+
+            if (mobileToggle && headerNav) {
+                mobileToggle.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    if (headerNav.classList.contains('active')) {
+                        closeMobileMenu();
+                    } else {
+                        openMobileMenu();
+                    }
+                });
+
+                // Close mobile menu when clicking on nav links
+                const navLinks = headerNav.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        closeMobileMenu();
+                    });
+                });
+
+                // Close mobile menu when clicking overlay
+                mobileOverlay.addEventListener('click', closeMobileMenu);
+
+                // Close mobile menu on escape key
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape' && headerNav.classList.contains('active')) {
+                        closeMobileMenu();
+                    }
+                });
+            }
+
+            // Contact form functionality
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    // Get form data
+                    const formData = new FormData(this);
+                    const contactData = {
+                        name: formData.get('name'),
+                        email: formData.get('email'),
+                        subject: formData.get('subject'),
+                        message: formData.get('message'),
+                        timestamp: new Date().toISOString()
+                    };
+
+                    // Save to localStorage for admin to view
+                    const contacts = JSON.parse(localStorage.getItem('portfolio_contacts')) || [];
+                    contacts.push(contactData);
+                    localStorage.setItem('portfolio_contacts', JSON.stringify(contacts));
+
+                    // Show success message
+                    const successMessage = document.createElement('div');
+                    successMessage.className = 'form-success';
+                    successMessage.innerHTML = '<i class="fas fa-check-circle"></i> Message sent successfully! I\'ll get back to you soon.';
+                    this.appendChild(successMessage);
+
+                    // Reset form
+                    this.reset();
+
+                    // Remove success message after 5 seconds
+                    setTimeout(() => {
+                        successMessage.remove();
+                    }, 5000);
+                });
+            }
+
+            // Load personal contact info from admin
+            function loadContactInfo() {
+                const personalInfo = JSON.parse(localStorage.getItem('portfolio_personal_info')) || {};
+
+                if (personalInfo.contactEmail) {
+                    const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
+                    emailLinks.forEach(link => {
+                        link.href = `mailto:${personalInfo.contactEmail}`;
+                    });
+                }
+            }
+
+            // Load availability status
+            function loadAvailabilityStatus() {
+                const status = localStorage.getItem('portfolioStatus') || 'available';
+                const statusElement = document.getElementById('availability-status');
+
+                if (statusElement) {
+                    statusElement.textContent = status === 'available' ? 'Available for projects' : 'Currently busy';
+                }
+            }
+
+            // Load data on page load
+            loadAvailabilityStatus();
+            loadContactInfo();
+
+            // Password protected link for the footer logo
+            const adminLogo = document.getElementById('adminLogo');
+            if (adminLogo) {
+                adminLogo.addEventListener('click', function() {
+                    const password = prompt("Enter password:");
+                    if (password === "pky@2003") {
+                        window.location.href = "/pages/update/index.html";
+                    } else {
+                        alert("Incorrect password.");
+                    }
+                });
+            }
+
+            // Responsive navigation handling
+            const mobileToggle = document.getElementById('mobileToggle');
+            const headerNav = document.querySelector('.header__nav');
+            
+            function checkDevice() {
+                const width = window.innerWidth;
+                if (width >= 1025) return 'desktop';
+                if (width >= 769) return 'tablet';
+                return 'mobile';
+            }
+
+            function updateNavigation() {
+                const device = checkDevice();
+                
+                switch(device) {
+                    case 'desktop':
+                    case 'tablet':
+                        if (headerNav) headerNav.classList.remove('active');
+                        document.body.style.overflow = 'auto';
+                        if (mobileToggle) mobileToggle.style.display = device === 'mobile' ? 'flex' : 'none';
+                        break;
+                        
+                    case 'mobile':
+                        if (mobileToggle) mobileToggle.style.display = 'flex';
+                        break;
+                }
+            }
+
+            updateNavigation();
+            
+            window.addEventListener('resize', function() {
+                updateNavigation();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#AFDF19">
+    <title>Emozz — Projects</title>
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40ODcgMiAyIDYuNDg3IDIgMTJzNC40ODcgMTAgMTAgMTAgMTAtNC40ODcgMTAtMTBTMTcuNTEzIDIgMTIgMnptMCAyYzQuNDMgMCA4IDMuNTcgOCA4YTcuOTk3IDcuOTk3IDAgMCAxLS42NjQgMy4xMjVjLS4zOTkuODI1LTEuMDI4IDEuMzI0LTEuODM2IDEuMzI0aC0xLjVjLS43NzggMC0xLjQ5Mi0uNDQ0LTEuODQ0LTEuMTQ1QzEzLjY2IDE1LjQ0MyAxMi44OTkgMTcgMTIgMTUgMTIuODk5IDE1IDEyIDE1Yy0uODk5IDAtMS42LjQ0My0yLjE1NiAxLjE1NUM5LjQ5MiAxNy41NTYgOC43NzggMTcgOCAxOC04LjIyIDgtOC4zMTIgMTUuNjQxLTguMDcgMTcuODc1Yy4zOTkuODI1IDEuMDMyIDEuMzI0IDEuODM2IDEuMzI0aC0xLjVjLS43Nz8gMC0xLjQ5Mi0uNDQ0LTEuODQ0LTEuMTQ1QzEuNDkyIDE1LjQ0MyAyLjE0NiAxNSAyLjUgMTVjLS44OTkgMC0xLjY2LjQ0My0yLjE1NiAxLjE1NUMwLjQ5MiAxNy41NTYtMC4yMjIgMTcgMCAxOGgtMS41Yy0uODA4IDAtMS40MzctLjUtMS44MzYtMS4zMjRBOCA4IDAgMCAxIDIgMTJjMC00LjQzIDMuNTctOCA4LTh6Ii8+PC9zdmc+" type="image/svg+xml" sizes="32x32">
+    <meta name="description" content="Projects by Emozz">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta property="og:title" content="Emozz — Projects">
+    <meta property="og:description" content="Projects by Emozz">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en">
+    <meta property="og:site_name" content="Emozz">
+    <link rel="stylesheet" href="/pages/style.css">
+</head>
+<body>
+    <div id="root">
+        <!-- Enhanced Premium Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="/pages/Home/index.html">
+                        <img src="/src/image/logo 1.png" class="logo" alt="Emozz Portfolio">
+                    </a>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="header__nav" role="navigation">
+                    <div class="nav-indicator"></div>
+                    <a href="/pages/Home/index.html" class="nav-link" data-section="home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/pages/Projects/index.html" class="nav-link active" data-section="projects">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="/pages/About-me/index.html" class="nav-link" data-section="skills">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="/pages/contact-me/index.html" class="nav-link" data-section="contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="projects-page">
+            <div class="container">
+                <h1 class="page-title">Projects</h1>
+                <div class="project-category">
+                    <h2 class="category-title">Complete Apps</h2>
+                    <hr class="project-divider">
+
+                    <div class="projects__grid" id="projects-grid">
+                        <!-- Projects will be dynamically inserted here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__info">
+                        <div class="footer__logo">
+                            <div class="logo">
+                                <img src="/src/image/logo 1.png" alt="Emozz Logo" width="40" height="40">
+                            </div>
+                        </div>
+                        <div><p>Web designer and front-end developer</p></div>
+                    </div>
+                    <div class="footer__media">
+                        <div class="footer__links">
+                            <a href="https://github.com/Emozz001" class="media-icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://t.me/Emozz2003" class="media-icon" target="_blank">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="mailto:ipawara2003.new@gmail.com" class="media-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <p>&copy; Copyright 2025. Made with <i class="fas fa-heart" style="color: #AFDF19;"></i> by Emozz</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Default projects data
+    const defaultProjects = [
+      {
+        title: "ChartNodes",
+        description: "Minecraft servers hosting solution with real-time analytics and management.",
+        technologies: "HTML,SCSS,Python,Flask",
+        isLive: true,
+        isCached: true,
+        status: "published",
+        link: "#"
+      },
+      {
+        title: "Kahoot Answers",
+        description: "Get answers to your kahoot quiz in real-time with this powerful tool.",
+        technologies: "CSS,Express,Node.js",
+        isLive: true,
+        isCached: false,
+        status: "published",
+        link: "#"
+      },
+      {
+        title: "PROTECTX",
+        description: "Discord anti-crash bot with advanced protection features.",
+        technologies: "React,Express,Discord.js,Node.js",
+        isLive: false,
+        isCached: true,
+        status: "published",
+        link: "#"
+      },
+      {
+        title: "BOT KOTMK",
+        description: "Multi-functional discord bot with custom commands and integrations.",
+        technologies: "HTML,CSS,JS",
+        isLive: true,
+        isCached: false,
+        status: "published",
+        link: "#"
+      },
+      {
+        title: "Elias Portfolio",
+        description: "You're using it right now! A modern portfolio showcasing my work.",
+        technologies: "Vue,TypeScript,Less",
+        isLive: false,
+        isCached: false,
+        status: "published",
+        link: "#"
+      },
+      {
+        title: "Portfolio Design",
+        description: "Creative portfolio website with modern animations.",
+        technologies: "HTML/CSS,JavaScript,GSAP",
+        isLive: false,
+        isCached: false,
+        status: "published",
+        link: "#"
+      }
+    ];
+
+    // Initialize localStorage with default projects if empty
+    if (!localStorage.getItem('portfolioProjects')) {
+      localStorage.setItem('portfolioProjects', JSON.stringify(defaultProjects));
+    }
+
+    function renderProjects() {
+      const grid = document.getElementById('projects-grid');
+      grid.innerHTML = '';
+
+      // Load projects from localStorage (synced with admin)
+      const projects = JSON.parse(localStorage.getItem('portfolioProjects')) || [
+        {
+          title: "E-Commerce Website",
+          description: "A modern e-commerce platform with shopping cart functionality",
+          technologies: "HTML,CSS,JavaScript,React",
+          link: "#",
+          github: "#",
+          isLive: true,
+          status: "published",
+          category: "web"
+        },
+        {
+          title: "Portfolio Website",
+          description: "Personal portfolio showcasing web development projects",
+          technologies: "HTML,CSS,JavaScript",
+          link: "#",
+          github: "#",
+          isLive: true,
+          status: "published",
+          category: "web"
+        },
+        {
+          title: "Task Management App",
+          description: "A productivity app for managing daily tasks and projects",
+          technologies: "React,Node.js,MongoDB",
+          link: "#",
+          github: "#",
+          isLive: false,
+          status: "published",
+          category: "web"
+        }
+      ];
+
+      // Filter only published projects
+      const publishedProjects = projects.filter(project => project.status === 'published');
+
+      if (publishedProjects.length === 0) {
+        grid.innerHTML = '<p style="text-align: center; padding: 30px; color: #aaa;">No published projects found.</p>';
+        return;
+      }
+
+      publishedProjects.forEach(project => {
+        const projectCard = document.createElement('a');
+        projectCard.href = project.link;
+        projectCard.className = 'project-card';
+        projectCard.innerHTML = `
+          <div class="project-image">
+            ${project.image ? `<img src="${project.image}" alt="${project.title}">` : '<i class="fas fa-laptop-code"></i>'}
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">${project.title}</h3>
+            <p class="project-description">${project.description}</p>
+            <div class="project-tech">
+              ${project.technologies.split(',').map(tech => `<span class="tech-tag">${tech.trim()}</span>`).join('')}
+            </div>
+            <div class="status-container">
+              ${project.isLive ? `
+                <div class="status-item live-status">
+                  <i class="fas fa-circle status-icon"></i>
+                  <span>Live</span>
+                </div>
+              ` : ''}
+              ${project.github ? `
+                <div class="status-item github-status">
+                  <i class="fab fa-github status-icon"></i>
+                  <span>Github</span>
+                </div>
+              ` : ''}
+              ${project.isFeatured ? `
+                <div class="status-item" style="color: #F39C12;">
+                  <i class="fas fa-star status-icon"></i>
+                  <span>Featured</span>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `;
+        grid.appendChild(projectCard);
+      });
+
+      // Add hover effects
+      addHoverEffects();
+    }
+
+    function addHoverEffects() {
+      // Project cards hover effect
+      document.querySelectorAll('.project-card').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+          card.style.borderColor = 'rgba(175, 223, 25, 0.5)';
+          card.style.boxShadow = '0 15px 30px rgba(175, 223, 25, 0.15)';
+        });
+
+        card.addEventListener('mouseleave', () => {
+          card.style.borderColor = 'rgba(175, 223, 25, 0.2)';
+          card.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.3)';
+        });
+      });
+
+      // Tech tags hover effect
+      document.querySelectorAll('.tech-tag').forEach(tag => {
+        tag.addEventListener('mouseenter', () => {
+          tag.style.transform = 'translateY(-2px)';
+        });
+
+        tag.addEventListener('mouseleave', () => {
+          tag.style.transform = 'translateY(0)';
+        });
+      });
+
+      // Status icons hover effect
+      document.querySelectorAll('.status-icon').forEach(icon => {
+        icon.addEventListener('mouseenter', () => {
+          icon.style.transform = 'scale(1.2)';
+        });
+
+        icon.addEventListener('mouseleave', () => {
+          icon.style.transform = 'scale(1)';
+        });
+      });
+    }
+
+    // Initial render
+    renderProjects();
+
+    // Comprehensive responsive navigation system
+    const mobileToggle = document.getElementById('mobileToggle');
+    const headerNav = document.querySelector('.header__nav');
+    const overlay = document.createElement('div');
+    overlay.className = 'mobile-overlay';
+    document.body.appendChild(overlay);
+
+    function checkDevice() {
+        const width = window.innerWidth;
+        if (width >= 1025) return 'desktop';
+        if (width >= 769) return 'tablet';
+        return 'mobile';
+    }
+
+    function updateNavigation() {
+        const device = checkDevice();
+
+        switch(device) {
+            case 'desktop':
+                headerNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+                if (mobileToggle) mobileToggle.style.display = 'none';
+                break;
+
+            case 'tablet':
+                headerNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+                if (mobileToggle) mobileToggle.style.display = 'none';
+                break;
+
+            case 'mobile':
+                if (mobileToggle) mobileToggle.style.display = 'flex';
+                break;
+        }
+    }
+
+    function openMobileMenu() {
+        if (checkDevice() !== 'mobile') return;
+
+        headerNav.classList.add('active');
+        overlay.classList.add('active');
+        mobileToggle.innerHTML = '<i class="fas fa-times"></i>';
+        mobileToggle.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+        headerNav.classList.remove('active');
+        overlay.classList.remove('active');
+        mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        mobileToggle.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+
+    updateNavigation();
+
+    if (mobileToggle && headerNav) {
+        mobileToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (checkDevice() !== 'mobile') return;
+
+            if (headerNav.classList.contains('active')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+        });
+
+        overlay.addEventListener('click', closeMobileMenu);
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                if (checkDevice() === 'mobile') {
+                    setTimeout(closeMobileMenu, 300);
+                }
+            });
+        });
+
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                updateNavigation();
+                if (headerNav.classList.contains('active') && checkDevice() !== 'mobile') {
+                    closeMobileMenu();
+                }
+            }, 100);
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && headerNav.classList.contains('active') && checkDevice() === 'mobile') {
+                closeMobileMenu();
+            }
+        });
+    }
+  });
+</script>
+</body>
+</html>
