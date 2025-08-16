@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emozz Portfolio - Intro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -16,6 +20,7 @@
             height: 100%;
             overflow: hidden;
             background: #000;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
         
         .video-container {
@@ -264,6 +269,13 @@
             // Track intro page visit
             trackVideoAnalytics();
         });
+        
+        // Preload main page resources
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = '/pages/Home/index.html';
+        document.head.appendChild(link);
     </script>
+    <script type="module" src="/src/js/main.js"></script>
 </body>
 </html>
